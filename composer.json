@@ -1,0 +1,19 @@
+{
+    "name": "impresja/template",
+    "authors": [
+        {
+            "name": "Radek Rudzinski",
+            "email": "biuro@brodex.pl"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "impresja\\": "./",
+            "app\\": "lib/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "impresja/impresja": "^v1.0.0"
+    }
+}
