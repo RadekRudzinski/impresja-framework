@@ -10,9 +10,9 @@ class SiteController extends Controller
 {
     public function start()
     {
-        Application::$app->view->title = "T jest tedst";
+        Application::$app->view->title = "Impresja 4";
         $params = [
-            'name' => 'Radek'
+            'name' => 'My name'
         ];
         return $this->render('start', $params);
     }
